@@ -1,0 +1,38 @@
+{
+  "name": "react-image-suspense",
+  "author": "hyunjin",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "image",
+    "suspense"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.5.0",
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.37",
+    "@types/typescript": "^2.0.0",
+    "react": "^18.2.0",
+    "rollup": "^4.4.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "typescript": "^5.2.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "rollup-plugin-ts": "^3.4.5"
+  }
+}
