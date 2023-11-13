@@ -1,4 +1,4 @@
-import { loadImage } from './temp'
+import { loadImage } from './utils'
 
 export const ImageSuspense = (
   props: React.ImgHTMLAttributes<HTMLImageElement>

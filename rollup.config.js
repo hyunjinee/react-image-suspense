@@ -9,8 +9,8 @@ export default [
   {
     input: 'src/index.ts',
     output: [
-      { file: packageJSON.main, format: 'cjs', sourceMap: true },
-      { file: packageJSON.module, format: 'esm', sourceMap: true },
+      { file: packageJSON.main, format: 'cjs', sourcemap: true },
+      { file: packageJSON.module, format: 'esm', sourcemap: true },
     ],
     plugins: [resolve(), commonjs(), typescript()],
   },

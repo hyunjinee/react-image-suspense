@@ -12,8 +12,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   react-image-suspense:
-    specifier: ^0.0.1
-    version: 0.0.1(@babel/core@7.23.3)(rollup@3.29.4)(typescript@5.2.2)
+    specifier: ^0.0.4
+    version: 0.0.4(@babel/core@7.23.3)(rollup@3.29.4)(typescript@5.2.2)
 
 devDependencies:
   '@types/react':
@@ -1600,8 +1600,8 @@ packages:
       scheduler: 0.23.0
     dev: false
 
-  /react-image-suspense@0.0.1(@babel/core@7.23.3)(rollup@3.29.4)(typescript@5.2.2):
-    resolution: {integrity: sha512-eTFVt/8PcQv5ciPFH6dvbJqzSmYE4OuFxexCyQFgawBzqJvhULGrpae1Px2j7fB1XP66xgCrQWfv5vXj3Ir53g==}
+  /react-image-suspense@0.0.4(@babel/core@7.23.3)(rollup@3.29.4)(typescript@5.2.2):
+    resolution: {integrity: sha512-6J48CqidYy9qrS6A3Q6fxNf3Mt/1ggYGeIw4JRJe1wMToCm2vKRpe44TJvd/VrVichPTf1v5hJH537ZCUI97mQ==}
     dependencies:
       rollup-plugin-ts: 3.4.5(@babel/core@7.23.3)(rollup@3.29.4)(typescript@5.2.2)
     transitivePeerDependencies:
