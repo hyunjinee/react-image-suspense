@@ -1,7 +1,13 @@
 # react-image-suspense
 
-```ts
-<Suspense>
-  <Image src="..." />
-</Suspense>
+```tsx
+import { Image } from 'react-image-suspense'
+
+const App = () => {
+  return (
+    <Suspense>
+      <Image src="..." />
+    </Suspense>
+  )
+}
 ```
